@@ -1,0 +1,15 @@
+.search-icon{
+    cursor: pointer;
+}
+.search-widget{
+    display: none;
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: white;
+    padding:10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2)
+}
+.search-widget.active{
+    display: block;
+}
